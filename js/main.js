@@ -1,12 +1,12 @@
 // Show mobile menu when we click a link
 const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
+const mobileNav = document.querySelector(".mobile-nav");
 
 hamburger.addEventListener("click", mobileMenu);
 
 function mobileMenu() {
   hamburger.classList.toggle("active");
-  navMenu.classList.toggle("active");
+  mobileNav.classList.toggle("active");
 }
 
 // Close when we click a link
@@ -16,5 +16,5 @@ navLink.forEach((n) => n.addEventListener("click", closeMenu));
 
 function closeMenu() {
   hamburger.classList.remove("active");
-  navMenu.classList.remove("active");
+  mobileNav.classList.remove("active");
 }
