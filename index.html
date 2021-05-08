@@ -1,64 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/all.min.css">
-    <title>Freddy App</title>
-</head>
-<body>
-    <header class="container">
-        <div class="con">
-            <div class="logo">
-                <img class="logo" src="./image/WhatsApp Image 2021-05-06 at 11.22.06 PM (1).jpeg" alt="logo">
-            </div>
-    
-            <div class="navigation">
-                <nav class="nav-bar">
-                    <ul class="nav-list">
-                        <a href="#"><li class="home">Home</li></a>                
-                        <a href="#"><li class="silver">About</li></a>                
-                        <a href="#"><li class="silver">Services</li> </a>               
-                        <a href="#"><li class="silver">Contact</li> </a>               
-                        <a href="#"><li class="silver">About</li> </a>               
-                    </ul>
-                </nav>
-            </div>
-    
-            <div class="btn">
-                <button class="btn1">Get Started</button>
-            </div>
-            
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 maximum-scale=5"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/devchallenges.png" />
+
+    <!-- Font Awesome v5.11.1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/all.min.css"
+    />
+
+    <!-- Google Font (Poppins) -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Document Title -->
+    <title>Collab.</title>
+  </head>
+  <body>
+    <div id="container">
+      <!-- Mobile navigation -->
+      <div class="mobile-nav">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link">About</a>
+        <a href="#" class="nav-link">Services</a>
+        <a href="#" class="nav-link">Contact</a>
+        <a href="#" class="nav-link">About</a>
+      </div>
+
+      <!-- End Mobile navigation -->
+
+      <header>
+        <img src="img/Collab..png" alt="Logo" class="nav-logo" />
+
+        <nav class="navbar">
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- For mobile size -->
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
-      
-    </header>
 
-    <section class="main-section">
-        <div class="con">
-            <div class="text">
-                <h1>Collaborate Like <br> Never Before</h1>
-                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, cupiditate. Asperiores nesciunt nulla tempora est autem magni obcaecati accusantium nostrum officiis labore, molestiae tempore beatae qui quam animi impedit provident?</p>
-                <button class="btn2"><i class="fas fa-play-circle"></i>Discover Video</button>
-            </div>
+        <button class="nav-btn">Get Started</button>
+      </header>
 
-            <img src="./image/WhatsApp Image 2021-05-06 at 11.22.05 PM.jpeg" alt="" class="image">
+      <!-- Main -->
+      <main>
+        <div class="main-content">
+          <h1 class="headline">Collaborate Like Never Before</h1>
+          <p class="desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+            repellat accusantium non voluptas ea nihil molestiae quos ducimus.
+          </p>
+
+          <button class="play-btn">
+            <i class="fa fa-play-circle" aria-hidden="true"></i>
+            Discover Video
+          </button>
         </div>
-    </section>
 
-    <footer class="main-footer">
-        <div class="con">
-            <div class="media">
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter-square"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-            </div>
-
-            <div class="name">
-                <h5>Sonna.Jr</h5>
-            </div>
+        <div class="main-img">
+          <img src="img/data-x1.png" alt="" />
         </div>
-    </footer>
-</body>
+      </main>
+
+      <!-- Footer -->
+      <footer>
+        <div class="social">
+          <a href="#" class="social-link">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="social-link">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="social-link">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+
+        <span class="name">Don Freddy</span>
+      </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+  </body>
 </html>
